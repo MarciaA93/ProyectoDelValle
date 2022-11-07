@@ -103,6 +103,33 @@ main .sobre-nosotros{
 .contenido-textos h3{
     margin-bottom: 15px;
 }
+.carousel-item{
+    height: 50vh;
+    
+}
+.carousel-inner{
+    height: 50vh;
+}
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
 
 .contenido-textos h3 span{
     background: #080686;
@@ -137,8 +164,11 @@ main .sobre-nosotros{
 }
 
 .imagen-port{
-    width: 24%;
+    width: 15vw;
+    height: 25vh;
     margin-bottom: 10px;
+    border-radius: 5%;
+    margin: 2px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -319,7 +349,19 @@ footer{
         justify-content: center;
         align-items: center;
     }
-
+    /* .carousel-item{
+        height: 30vh;
+        
+    }
+    .carousel-inner{
+        height: 50vh;
+    }*/
+    .w-100 {
+        width: 100%!important;
+        object-fit: cover;
+        height: 50vh;
+    } 
+    
     .cards .card{
         width: 90%;
     }
@@ -368,6 +410,19 @@ footer{
     }
 
     /* ABOUT US */
+    .w-100 {
+        width: 100%!important;
+        height: 35%;
+        object-fit: cover;
+    }
+    .carousel-item{
+        height: 100vh;
+        
+    }
+    .carousel-inner{
+        height: 30vh;
+        
+    }
 
     .imagen-about-us{
         margin-bottom: 60px;

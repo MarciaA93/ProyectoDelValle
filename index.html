@@ -18,10 +18,9 @@
     <header>
       <nav>
         <a href="#">Inicio</a>
-        <a href="#">Acerca de</a>
-        <a href="#">Portafolio</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
+        <a href="#Servicios">Servicios</a>
+        <a href="#Clientes">Clientes</a>
+        <a href="#Contacto">Contacto</a>
       </nav>
       <section class="textos-header">
         <h1>ASCENSORES DEL VALLE</h1>
@@ -42,6 +41,7 @@
     </header>
     <main>
       <section class="contenedor sobre-nosotros">
+        <a name="Servicios">
         <h2 class="titulo">Nuestros Servicios</h2>
         <div class="contenedor-sobre-nosotros">
           <img src="img/ingeniero.png" alt="" class="imagen-about-us" />
@@ -53,10 +53,7 @@
             </p>
             <h3><span>2</span>Instalaciones y Modernizaciones</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              veniam eius aspernatur ad consequuntur aperiam minima sed dicta
-              odit numquam sapiente quam eum, architecto animi pariatur, velit
-              doloribus laboriosam ut.
+              Tenemos la representacion de una empresa que realiza instalaciones y modernizaciones siendo nosotros despues los responsables de los mantenimientos y de las garantias vigentes.
             </p>
           </div>
         </div>
@@ -125,29 +122,9 @@
         </div>
       </section>
       <section class="clientes contenedor">
-        <h2 class="titulo">Que dicen nuestros clientes</h2>
-        <div class="cards">
-          <div class="card">
-            <img src="img/cara1.jpg" alt="" />
-            <div class="contenido-texto-card">
-              <h4>Name</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-                sapiente!
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="img/cara2.jpg" alt="" />
-            <div class="contenido-texto-card">
-              <h4>Name</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-                sapiente!
-              </p>
-            </div>
-          </div>
-        </div>
+        <a name="Clientes">
+        <h2 class="titulo"> Nuestros clientes</h2>
+        
       </section>
       <section class="about-services">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -158,24 +135,24 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/img/actualizacion.jpg" class="d-block w-100" alt="...">
+      <img src="./img/traumatologia.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Traumatologia del Comahue</h5>
+        <p>Fotteringam 252</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/img/actualizacion.jpg" class="d-block w-100" alt="...">
+      <img src="./img/caviahue1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Edificio Caviahue</h5>
+        <p>Caviahue 224</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/img/confianza2.jpg" class="d-block w-100" alt="...">
+      <img src="./img/gamma1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Edificio Gamma</h5>
+        <p>Padre Steffenelli 1100</p>
       </div>
     </div>
   </div>
@@ -191,22 +168,30 @@
         </section>
     </main>
     <footer>
+      <a name="Contacto">
       <div class="contenedor-footer">
         <div class="content-foo">
-          <h4>Phone</h4>
+          <h4>Telefono</h4>
           <p>+54 2994637476/ +54 2995031605</p>
         </div>
         <div class="content-foo">
           <h4>Email</h4>
-          <p>ascensoresdelvalle@gmail.com</p>
+          <p>
+            <a href="mailto:ascensoresdelvalle@gmail.com">ascensoresdelvalle@gmail.com</a>
+          </p>
         </div>
         <div class="content-foo">
-          <h4>Location</h4>
+          <h4>Ubicacion</h4>
           <p>Cipolletti-Neuquén</p>
         </div>
+       
       </div>
-      <h6 class="titulo-final">MM CODE | Marcia Montivero</h6>
+      <a href="https://api.whatsapp.com/send?phone=542994637476" class="btn-wsp" target="_blank">
+        <i class="fa fa-whatsapp icono"></i>
+    </a>
+      <h6 class="titulo-final">©MM CODE | Marcia Montivero</h6>
     </footer>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
